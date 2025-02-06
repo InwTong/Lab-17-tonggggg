@@ -4,12 +4,6 @@
 #include<vector>
 using namespace std;
 
-#include<iostream>
-#include<cstdlib>
-#include<ctime>
-#include<vector>
-using namespace std;
-
 vector<int> randomVector(unsigned int N){	
     vector<int> v;
     for(unsigned int i = 0; i < N; i++) v.push_back(rand()%10);
